@@ -7,6 +7,19 @@ var start = new Date;
 
 var sum = 0.00;
 
+// var exclude = [];
+
+// for (var i = 3; i < 1000; i+= 3) {
+//     sum += i;
+//     exclude.push(i);
+// } // end for
+
+// for (var j = 5; j < 1000; j+= 5) {
+//     if ( -1 === exclude.indexOf(j) ) {
+//         sum += j;
+//     } // end if
+// } // end for
+
 for (var i = 1; i < 1000; i++) {
     if (0.00 === i % 3 || 0.00 === i % 5) {
         sum += i;
